@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/splash.unity
     guid: 7a5cae4aa59f6bc4f977d3968babede6
   - enabled: 1
-    path: Assets/Level 1.unity
+    path: Assets/Level 1/Level 1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

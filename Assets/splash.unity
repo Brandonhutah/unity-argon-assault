@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73961053}
   - component: {fileID: 73961052}
+  - component: {fileID: 73961054}
   m_Layer: 0
   m_Name: Music Player
   m_TagString: Untagged
@@ -248,6 +249,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &73961054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73961051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18808cc4f6204bf408072773a7d8499f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneTransitionSeconds: 5
 --- !u!1 &1973191640
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +273,6 @@ GameObject:
   - component: {fileID: 1973191643}
   - component: {fileID: 1973191642}
   - component: {fileID: 1973191641}
-  - component: {fileID: 1973191644}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -332,16 +345,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -53.94, y: -18, z: 0}
---- !u!114 &1973191644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973191640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18808cc4f6204bf408072773a7d8499f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneTransitionSeconds: 5
